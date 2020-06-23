@@ -3,9 +3,9 @@ title: Wanglk Blog
 SEOTitle: 王立康的博客 | Wanglk Blog
 header-img: img/home-bg.jpg
 email: wlk90god@gmail.com
-description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://huangxuan.me" # your host, for absolute URL
+description: "我是前端工程师，我的梦想是一位厨师👨‍🍳"
+keyword: "王立康, Wanglk, wlk1204, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+url: "https://wanglk.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
+weibo_username: 5240351144
+zhihu_username: wang-shu-shu-ne
+github_username: wlk1204
+twitter_username: wlk1204
+#facebook_username:  wlk1204
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: wanglk
 
 # Netease settings
 netease_comment: false
@@ -69,13 +69,13 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: "" # Format: UA-xxxxxx-xx
+ga_domain: wanglk.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux-ny.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Call me cooker.<br>我是前端工程师，我的梦想是一位厨师👨‍🍳"
+sidebar-avatar: /img/avatar.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -89,8 +89,4 @@ service-worker: true
 page-mathjax: false
 
 # Friends
-friends:
-  [
-    { title: "Su", href: "http://su.gallery/" },
-    { title: "乱序", href: "http://mida.re/" },
-  ]
+friends: [{ title: "Peng", href: "https://pldaily.cn/" }]
