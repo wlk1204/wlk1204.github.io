@@ -89,4 +89,4 @@ service-worker: true
 page-mathjax: false
 
 # Friends
-friends: [{ title: "Peng", href: "https://pldaily.cn/" }]
+friends: [{ title: "PLDaily", href: "https://pldaily.cn/" }]
