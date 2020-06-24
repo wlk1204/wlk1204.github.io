@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: wlk90god@gmail.com
 description: "我是前端工程师，我的梦想是一位厨师👨‍🍳"
 keyword: "王立康, Wanglk, wlk1204, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://wanglk.me" # your host, for absolute URL
+url: "https://wlk1204.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
