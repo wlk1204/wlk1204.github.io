@@ -4,7 +4,6 @@ subtitle: "王立康的博客重新诞生"
 layout: post
 author: "Wanglk"
 header-style: text
-hidden: true
 tags:
   - 诞生🐣
 ---
