@@ -4,6 +4,17 @@
 
 
 
+### Ruby Environment
+```
+gem install bundler
+
+rvm install ruby@latest # current latest version is 2.7.0
+
+rvm use 2.7.0
+```
+
+
+
 ### Dev
 
 ```bash
@@ -17,8 +28,10 @@ yarn dev
 ### Prod
 ```bash
 git add .
+
 git commit -m "update"
-git push to origin master
+
+git push origin master --tag
 ```
 
 
