@@ -10,5 +10,5 @@ tags:
 
 > Coding: neovim + zsh + tmux + item2
 
-[Github地址:middle_finger:](https://github.com/wlk1204/dotfiles)
+[Github地址](https://github.com/wlk1204/dotfiles)
 

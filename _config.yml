@@ -3,7 +3,7 @@ title: Wanglk Blog
 SEOTitle: 王立康的博客 | Wanglk Blog
 header-img: img/home-bg.jpg
 email: wlk90god@gmail.com
-description: "我是前端工程师，我的梦想是一位厨师👨‍🍳"
+description: "全干工程师 👨‍🍳"
 keyword: "王立康, Wanglk, wlk1204, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
 url: "https://wlk1204.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
@@ -74,7 +74,7 @@ ga_domain: wanglk.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Call me cooker.<br>我是前端工程师，我的梦想是一位厨师👨‍🍳"
+sidebar-about-description: "全干工程师 👨‍🍳"
 sidebar-avatar: /img/avatar.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
