@@ -10,9 +10,9 @@ tags:
 
 
 ### .vimrc
-仓库地址：[Github](https://github.com/wlk1204/wlk1204-vim)
+仓库地址：[Github](https://github.com/wlk1204/dotfiles/blob/main/nvim/init.vim)
 <br />
-在配置`.vimrc` 遇到的问题记录：[Issues](https://github.com/wlk1204/wlk1204-vim/issues)
+在配置`.vimrc` 遇到的问题记录：[Issues](https://github.com/wlk1204/dotfiles/issues)
 
 
 ### Vim 示例图

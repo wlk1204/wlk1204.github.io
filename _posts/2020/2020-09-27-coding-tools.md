@@ -8,14 +8,7 @@ tags:
   - Coding
 ---
 
-> vim + zsh + tmux + item2
+> Coding: neovim + zsh + tmux + item2
 
-
-### Vim
-
-### Zsh
-
-### Tmux
-
-### Item2
+[Github地址:middle_finger:](https://github.com/wlk1204/dotfiles)
 
