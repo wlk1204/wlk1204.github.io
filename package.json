@@ -1,0 +1,16 @@
+{
+  "name": "leekon-blog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-rss": "^0.4.4",
+    "vue": "^3.5.13"
+  }
+}
