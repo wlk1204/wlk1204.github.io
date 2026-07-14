@@ -2,7 +2,7 @@
 
 基于 [VitePress](https://vitepress.dev/) 搭建的个人博客，部署在 GitHub Pages。
 
-在线地址：https://leekon.github.io
+在线地址：https://wlk1204.github.io
 
 ## 功能
 
@@ -52,17 +52,17 @@ publish: true
 
 ## 部署到 GitHub Pages
 
-1. 在 GitHub 创建仓库 `leekon/leekon.github.io`
+1. 在 GitHub 使用仓库 `wlk1204/wlk1204.github.io`
 2. 推送代码到 `main` 分支
 3. 仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**
-4. 等待 Actions 完成后访问 https://leekon.github.io
+4. 等待 Actions 完成后访问 https://wlk1204.github.io
 
 ```bash
 git init
 git add .
 git commit -m "feat: init VitePress blog"
 git branch -M main
-git remote add origin git@github.com:leekon/leekon.github.io.git
+git remote add origin git@github.com:wlk1204/wlk1204.github.io.git
 git push -u origin main
 ```
 

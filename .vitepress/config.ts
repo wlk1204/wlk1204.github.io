@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { RssPlugin } from 'vitepress-plugin-rss'
 
-const BASE_URL = 'https://leekon.github.io'
+const BASE_URL = 'https://wlk1204.github.io'
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -30,7 +30,7 @@ export default defineConfig({
       { text: '标签', link: '/pages/tags' },
       { text: '归档', link: '/pages/archives' },
     ],
-    socialLinks: [{ icon: 'github', link: 'https://github.com/leekon' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/wlk1204' }],
     search: {
       provider: 'local',
       options: {

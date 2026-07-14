@@ -13,7 +13,7 @@ hero:
       link: /posts/hello-world
     - theme: alt
       text: GitHub
-      link: https://github.com/leekon
+      link: https://github.com/wlk1204
   image:
     src: /favicon.svg
     alt: Leekon
