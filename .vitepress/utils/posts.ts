@@ -22,32 +22,6 @@ export function formatDate(date: string): string {
   })
 }
 
-export function getYearMonth(date: string): { year: string; month: string } {
-  const parsed = new Date(date)
-  const year = String(parsed.getFullYear())
-  const month = String(parsed.getMonth() + 1).padStart(2, '0')
-  return { year, month }
-}
-
-export function groupByYearMonth(posts: Post[]) {
-  const groups = new Map<string, Post[]>()
-
-  for (const post of posts) {
-    const { year, month } = getYearMonth(post.date)
-    const key = `${year}-${month}`
-    const list = groups.get(key) ?? []
-    list.push(post)
-    groups.set(key, list)
-  }
-
-  return [...groups.entries()]
-    .sort(([a], [b]) => b.localeCompare(a))
-    .map(([key, items]) => {
-      const [year, month] = key.split('-')
-      return { year, month, posts: items }
-    })
-}
-
 export function collectTags(posts: Post[]) {
   const tagMap = new Map<string, Post[]>()
 

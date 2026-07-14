@@ -2,9 +2,6 @@
 title: webpack && gulp 使用场景
 date: 2020-06-27
 tags:
-  - FE
-  - webpack
-  - gulp
   - 工程化
 description: 工程化中的打包利器
 publish: true

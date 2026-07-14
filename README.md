@@ -8,7 +8,6 @@
 
 - 首页个人简介 + 最新文章列表
 - 标签分类浏览
-- 按年月归档
 - RSS 订阅（`/feed.rss`）
 - 深色/浅色主题切换
 - 站内全文搜索
@@ -55,7 +54,8 @@ publish: true
 1. 在 GitHub 使用仓库 `wlk1204/wlk1204.github.io`
 2. 推送代码到 `main` 分支
 3. 仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**
-4. 等待 Actions 完成后访问 https://wlk1204.github.io
+4. 仓库 **Settings → Environments → github-pages**，在 **Deployment branches** 中允许 `main` 分支（见下方常见问题）
+5. 等待 Actions 完成后访问 https://wlk1204.github.io
 
 ```bash
 git init
@@ -65,6 +65,18 @@ git branch -M main
 git remote add origin git@github.com:wlk1204/wlk1204.github.io.git
 git push -u origin main
 ```
+
+## 常见问题
+
+### `Branch "main" is not allowed to deploy to github-pages`
+
+这是 GitHub **环境保护规则** 限制了可部署分支，不是代码问题。按以下步骤修复：
+
+1. 打开 https://github.com/wlk1204/wlk1204.github.io/settings/environments
+2. 点击 **github-pages** 环境
+3. 找到 **Deployment branches**（部署分支）
+4. 选择 **All branches**（所有分支），或点击 **Add deployment branch or tag** 添加 `main`
+5. 保存后，到 Actions 页面 **Re-run all jobs** 重新运行工作流
 
 ## 目录结构
 
@@ -76,7 +88,7 @@ git push -u origin main
 │   ├── theme/                     # 主题扩展
 │   └── utils/                     # 工具函数
 ├── posts/                         # 博客文章
-├── pages/                         # 标签、归档等页面
+├── pages/                         # 标签等页面
 ├── public/                        # 静态资源
 └── index.md                       # 首页
 ```

@@ -28,7 +28,6 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '标签', link: '/pages/tags' },
-      { text: '归档', link: '/pages/archives' },
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/wlk1204' }],
     search: {

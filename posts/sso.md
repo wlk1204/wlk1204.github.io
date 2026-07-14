@@ -2,7 +2,6 @@
 title: SSO单点登录
 date: 2020-06-28
 tags:
-  - FE
   - 工程化
 description: 大公司都在用的单点登录系统
 publish: true
